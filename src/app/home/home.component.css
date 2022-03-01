@@ -1,50 +1,58 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-.main{
-    background: linear-gradient(rgb(207, 218, 109), rgb(106, 201, 106));
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.test{
-    background: white;
-    padding: 15px;
-    border-radius:15px;
-    text-align: center;
+.main {
+  background: linear-gradient(rgb(207, 218, 109), rgb(106, 201, 106));
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-input{
-    width: 100%;
-    outline: none;
-    border: none;
-    text-align: center;
-    margin: 15px 0 15px 0;
-    border-bottom: 2px solid rgb(207, 218, 109);
-    font-size: 16px;
+.test {
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
 }
-h3{margin-bottom: 15px}
 
-button{
-    outline: none;
-    border: none;
-    padding: 10px;
-    background: rgb(106, 201, 106);
-    border-radius: 10px;
-    cursor: pointer;
-    color: white;
-    font-weight: bold;
-    transition: 0.3s;
-    margin-right: 10px;
+input {
+    margin-bottom: 10px;
+  padding: 15px;
+  border: none;
+  width: 100%;
+  outline: none;
+  border-bottom: 2px solid #adadad;
+  text-align: center;
 }
-button:hover{background: rgb(81, 150, 81);}
+h3 {
+  margin-bottom: 15px;
+}
 
-p{
-    font-weight: bold;
-    margin-top: 15px;
+button {
+  outline: none;
+  border: none;
+  padding: 10px;
+  background: rgb(106, 201, 106);
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+button:hover {
+  background: rgb(81, 150, 81);
+}
+
+p {
+  font-weight: bold;
+  margin-top: 15px;
+}
+h2 {
+  margin-top: 15px;
 }
