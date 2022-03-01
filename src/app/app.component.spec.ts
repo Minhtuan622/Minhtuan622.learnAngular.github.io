@@ -28,4 +28,4 @@ describe('AppComponent', () => {
       'Deptrai app is running!'
     );
   });
-});
+}); 
